@@ -34,6 +34,8 @@ Route::get('/services', [Page_Controller::class, 'services'])->name('services');
 Route::get('/shared-hosting', [Page_Controller::class, 'shared_hosting'])->name('shared-hosting');
 Route::get('/shared-wp-hosting', [Page_Controller::class, 'shared_wp_hosting'])->name('shared-wp-hosting');
 Route::get('/woocommerce-hosting', [Page_Controller::class, 'woocommerce_hosting'])->name('woocommerce-hosting');
-
-
+Route::get('/login', [Page_Controller::class, 'login_page'])->name('login');
+Route::get('/register', [Page_Controller::class, 'register_page'])->name('register');
+Route::get('/recover-password', [Page_Controller::class, 'recover_password_page'])->name('recover-password');
+Route::get('/freehosting', [Page_Controller::class, 'freehosting_page'])->name('freehosting');
 

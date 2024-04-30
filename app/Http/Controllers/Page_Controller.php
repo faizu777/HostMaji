@@ -76,7 +76,7 @@ class Page_Controller extends Controller
     }
     function pricing_comparison()
     {
-        return view('pricing-comparison');
+        return view('pricing-comparision');
     }
     function pricing_default()
     {
@@ -112,7 +112,7 @@ class Page_Controller extends Controller
     }
     function term_condition()
     {
-        return view('term-condition');
+        return view('terms-condition');
 
     }
     function status()
@@ -143,4 +143,20 @@ class Page_Controller extends Controller
     {
         return view('shared-wp-hosting');
     }
+    function login_page()
+    {
+return view('index');
+    }
+    function register_page()
+    {
+return view('index');
+    }
+    function recover_password_page()
+    {
+return view('index');
+    }
+function freehosting_page()
+{
+    return view('freehosting');
+}
 }

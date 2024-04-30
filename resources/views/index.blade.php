@@ -69,8 +69,8 @@
                     <div class="col-md-4 col-lg-4">
                         <div class="topbar-text">
                             <ul class="list-inline text-right">
-                                <li class="list-inline-item"><a href="#"><span class="fas fa-user mr-2"></span> Login</a></li>
-                                <li class="list-inline-item"><a href="#"><span class="fas fa-lock mr-2"></span> Register</a>
+                                <li class="list-inline-item"><a href="{{route('login')}}"><span class="fas fa-user mr-2"></span> Login</a></li>
+                                <li class="list-inline-item"><a href="{{route('register')}}"><span class="fas fa-lock mr-2"></span> Register</a>
                                 </li>
                             </ul>
                         </div>
@@ -102,81 +102,19 @@
                         <ul class="navbar-nav ml-auto main-navbar-nav">
                             <!--home start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
-                                <a id="homeMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="#" >Home</a>
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link " href="#" >Home</a>
+
+                                <!--home mega menu end-->
+                            </li>
+                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-position="left">
+                                <a id="homeMegaMenu" class="nav-link custom-nav-link " href="{{route('freehosting')}}" >Free Hosting</a>
 
                                 <!--home mega menu end-->
                             </li>
                             <!--home end-->
 
                             <!--pages start-->
-                            <li class="nav-item hs-has-sub-menu custom-nav-item">
-                                <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
-
-                                <!-- Pages - Submenu -->
-                                <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
-                                    <li class="nav-item submenu-item">
-                                        <a class="nav-link sub-menu-nav-link" href="{{route('about')}}">About Us</a>
-                                    </li>
-                                    <li class="nav-item submenu-item">
-                                        <a class="nav-link sub-menu-nav-link" href="{{route('services')}}">Our Services</a>
-                                    </li>
-                                    
-                                    <li class="nav-item submenu-item">
-                                        <a class="nav-link sub-menu-nav-link" href="{{route('team')}}">Team </a>
-                                    </li>
-                                    <li class="nav-item submenu-item">
-                                        <a class="nav-link sub-menu-nav-link" href="{{route('offer-single')}}">Black Friday Single <span class="badge badge-warning ml-auto">New</span></a>
-                                    </li>
-                                    <li class="hs-has-sub-menu">
-                                        <a id="navLinkPagesPricing" class="nav-link sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing">Pricing</a>
-
-                                        <ul id="navSubmenuPagesPricing" class="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesPricing" style="min-width: 230px;">
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-default')}}">Pricing Default</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-package')}}">Pricing Packages</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-comparison')}}">Pricing Comparison</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('vps-pricing')}}">VPS Pricing</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-new')}}">New Pricing <span class="badge badge-success ml-2">New</span></a></li>
-                                        </ul>
-                                    </li>
-                                    
-
-                                    <li class="hs-has-sub-menu">
-                                        <a id="navLinkPagesLogin" class="nav-link sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesLogin">Login &amp; Signup</a>
-
-                                        <ul id="navSubmenuPagesLogin" class="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesLogin" style="min-width: 230px;">
-                                            <li><a class="nav-link sub-menu-nav-link" href="login.html">Login</a>
-                                            </li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="signup.html">Signup</a>
-                                            </li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="recover-account.html">Recover Account</a></li>
-                                            <li class="dropdown-divider"></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="login-simple.html">Login Simple</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="signup-simple.html">Signup Simple</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="recover-account-simple.html">Recover Account Simple</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="hs-has-sub-menu">
-                                        <a id="navLinkPagesUtilities" class="nav-link sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesUtilities">Utilities</a>
-
-                                        <ul id="navSubmenuPagesUtilities" class="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesUtilities" style="min-width: 230px;">
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('help')}}">Help</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('faq')}}">FAQ</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('status')}}">Status</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('knowledge-base')}}">Knowledge Base</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('terms-conditions')}}">Terms
-                                                    &amp; Conditions</a></li>
-                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('privacy-policy')}}">Privacy &amp; Policy</a></li>
-                                        </ul>
-                                    </li>
-                                   
-                                    <!-- Specialty -->
-                                </ul>
-                                <!-- End Pages - Submenu -->
-                            </li>
-                            <!--pages end-->
-
-
+                            
                             <!--hosting start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="720px" data-position="right">
                                 <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Hosting</a>
@@ -401,6 +339,70 @@
                                 <!--support submenu end-->
                             </li>
                             <!--support end-->
+
+                            <li class="nav-item hs-has-sub-menu custom-nav-item">
+                                <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
+
+                                <!-- Pages - Submenu -->
+                                <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
+                                    <li class="nav-item submenu-item">
+                                        <a class="nav-link sub-menu-nav-link" href="{{route('about')}}">About Us</a>
+                                    </li>
+                                    <li class="nav-item submenu-item">
+                                        <a class="nav-link sub-menu-nav-link" href="{{route('services')}}">Our Services</a>
+                                    </li>
+                                    
+                                    <li class="nav-item submenu-item">
+                                        <a class="nav-link sub-menu-nav-link" href="{{route('team')}}">Team </a>
+                                    </li>
+                                    <li class="nav-item submenu-item">
+                                        <a class="nav-link sub-menu-nav-link" href="{{route('offer-single')}}">Black Friday Single <span class="badge badge-warning ml-auto">New</span></a>
+                                    </li>
+                                    <li class="hs-has-sub-menu">
+                                        <a id="navLinkPagesPricing" class="nav-link sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesPricing">Pricing</a>
+
+                                        <ul id="navSubmenuPagesPricing" class="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesPricing" style="min-width: 230px;">
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-default')}}">Pricing Default</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-package')}}">Pricing Packages</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-comparison')}}">Pricing Comparison</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('vps-pricing')}}">VPS Pricing</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-new')}}">New Pricing <span class="badge badge-success ml-2">New</span></a></li>
+                                        </ul>
+                                    </li>
+                                    
+
+                                    <li class="hs-has-sub-menu">
+                                        <a id="navLinkPagesLogin" class="nav-link sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesLogin">Login &amp; Signup</a>
+
+                                        <ul id="navSubmenuPagesLogin" class="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesLogin" style="min-width: 230px;">
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('login')}}">Login</a>
+                                            </li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('register')}}">Signup</a>
+                                            </li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('recover-password')}}">Recover Account</a></li>
+                                           
+                                        </ul>
+                                    </li>
+                                    <li class="hs-has-sub-menu">
+                                        <a id="navLinkPagesUtilities" class="nav-link sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesUtilities">Utilities</a>
+
+                                        <ul id="navSubmenuPagesUtilities" class="hs-sub-menu main-sub-menu" aria-labelledby="navLinkPagesUtilities" style="min-width: 230px;">
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('help')}}">Help</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('faq')}}">FAQ</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('status')}}">Status</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('knowledge-base')}}">Knowledge Base</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('terms-conditions')}}">Terms
+                                                    &amp; Conditions</a></li>
+                                            <li><a class="nav-link sub-menu-nav-link" href="{{route('privacy-policy')}}">Privacy &amp; Policy</a></li>
+                                        </ul>
+                                    </li>
+                                   
+                                    <!-- Specialty -->
+                                </ul>
+                                <!-- End Pages - Submenu -->
+                            </li>
+                            <!--pages end-->
+
 
                             <!--about start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
@@ -818,8 +820,8 @@
                                 <p class="mb-0">Medium traffic personal sites</p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price"> ₹ 1669<span>/month</span></div>
-                                <div class="price text-center mb-0 yearly-price"> ₹ 5849<span>/yearly</span></div>
+                                <div class="price text-center mb-0 monthly-price"> ₹ 1589<span>/month</span></div>
+                                <div class="price text-center mb-0 yearly-price"> ₹ 5769<span>/yearly</span></div>
                                 <div class="price text-center mb-0 biannual-price"> ₹ 10849<span>/biannual</span></div>
                                 <div class="price text-center mb-0 triennial-price"> ₹ 16619<span>/triennial</span></div>
                             </div>
@@ -872,7 +874,7 @@
                                 <p class="mb-0">Enterprise content management</p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">₹ 5759<span>/month</span></div>
+                                <div class="price text-center mb-0 monthly-price">₹ 5769<span>/month</span></div>
                                 <div class="price text-center mb-0 yearly-price">₹ 21629<span>/yearly</span></div>
                                 <div class="price text-center mb-0 biannual-price">₹ 41659<span>/biannual</span></div>
                                 <div class="price text-center mb-0 triennial-price">₹ 61699<span>/triennial</span></div>
