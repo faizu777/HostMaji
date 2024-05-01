@@ -22,7 +22,7 @@
     <meta property="og:type" content="article" />
 
     <!--favicon icon-->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16">
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -31,9 +31,9 @@
     <title>404 - Hosting Provider with WHMCS Template</title>
 
     <!--build:css-->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <!-- endbuild -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
 </head>
 
 <body>
@@ -117,18 +117,18 @@
     </button>
     <!--bottom to top button end-->
     <!--build:js-->
-    <script src="assets/js/vendors/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendors/bootstrap-slider.min.js"></script>
-    <script src="assets/js/vendors/jquery.countdown.min.js"></script>
-    <script src="assets/js/vendors/jquery.easing.min.js"></script>
-    <script src="assets/js/vendors/owl.carousel.min.js"></script>
-    <script src="assets/js/vendors/validator.min.js"></script>
-    <script src="assets/js/vendors/jquery.waypoints.min.js"></script>
-    <script src="assets/js/vendors/jquery.rcounterup.js"></script>
-    <script src="assets/js/vendors/magnific-popup.min.js"></script>
-    <script src="assets/js/vendors/hs.megamenu.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/js/vendors/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/vendors/bootstrap-slider.min.js"></script>
+    <script src="/assets/js/vendors/jquery.countdown.min.js"></script>
+    <script src="/assets/js/vendors/jquery.easing.min.js"></script>
+    <script src="/assets/js/vendors/owl.carousel.min.js"></script>
+    <script src="/assets/js/vendors/validator.min.js"></script>
+    <script src="/assets/js/vendors/jquery.waypoints.min.js"></script>
+    <script src="/assets/js/vendors/jquery.rcounterup.js"></script>
+    <script src="/assets/js/vendors/magnific-popup.min.js"></script>
+    <script src="/assets/js/vendors/hs.megamenu.js"></script>
+    <script src="/assets/js/app.js"></script>
     <!--endbuild-->
 </body>
 

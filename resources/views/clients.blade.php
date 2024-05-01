@@ -925,7 +925,7 @@
                                     <img src="assets/img/payment-paypal.svg" alt="paypal" width="50" />
                                 </li>
                                 <li class="list-inline-item">
-                                    <img src="assets/img/payment-bitcoin.svg" alt="bitcoin" width="50" />
+                                    <img src="/assets/img/payment-bitcoin.svg" alt="bitcoin" width="50" />
                                 </li>
                             </ul>
                         </div>
@@ -943,17 +943,17 @@
     </button>
     <!--bottom to top button end-->
     <!--build:js-->
-    <script src="assets/js/vendors/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendors/bootstrap-slider.min.js"></script>
-    <script src="assets/js/vendors/jquery.countdown.min.js"></script>
-    <script src="assets/js/vendors/jquery.easing.min.js"></script>
-    <script src="assets/js/vendors/owl.carousel.min.js"></script>
-    <script src="assets/js/vendors/validator.min.js"></script>
-    <script src="assets/js/vendors/jquery.waypoints.min.js"></script>
-    <script src="assets/js/vendors/jquery.rcounterup.js"></script>
-    <script src="assets/js/vendors/magnific-popup.min.js"></script>
-    <script src="assets/js/vendors/hs.megamenu.js"></script>
+    <script src="/assets/js/vendors/jquery-3.5.1.min.js"></script>
+    <script src="/assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/vendors/bootstrap-slider.min.js"></script>
+    <script src="/assets/js/vendors/jquery.countdown.min.js"></script>
+    <script src="/assets/js/vendors/jquery.easing.min.js"></script>
+    <script src="/assets/js/vendors/owl.carousel.min.js"></script>
+    <script src="/assets/js/vendors/validator.min.js"></script>
+    <script src="/assets/js/vendors/jquery.waypoints.min.js"></script>
+    <script src="/assets/js/vendors/jquery.rcounterup.js"></script>
+    <script src="/assets/js/vendors/magnific-popup.min.js"></script>
+    <script src="/assets/js/vendors/hs.megamenu.js"></script>
     <script src="assets/js/app.js"></script>
     <!--endbuild-->
 </body>

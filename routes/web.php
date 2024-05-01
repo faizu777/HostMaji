@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Page_Controller;
 
+
+// Pages Routes
+Route::scopeBindings()->group(function () {
+   
+
 Route::get('/', [Page_Controller::class, 'index'])->name('index');
 Route::get('/about-us', [Page_Controller::class, 'about_us'])->name('about');
 Route::get('/clients', [Page_Controller::class, 'clients'])->name('clients');
@@ -47,4 +52,5 @@ Route::get('/data-centers', [Page_Controller::class, 'Data_Centers_page'])->name
 Route::get('/acceptable-use-policy', [Page_Controller::class, 'Acceptable_Use_Policy_page'])->name('acceptable-use-policy');
 Route::get('/blog', [Page_Controller::class, 'Blog_page'])->name('blog');
 Route::get('/testimonials', [Page_Controller::class, 'Testimonials_page'])->name('testimonials');
-
+});
+// Pages Routes

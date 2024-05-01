@@ -951,7 +951,7 @@
                                 <img src="assets/img/payment-paypal.svg" alt="paypal" width="50" />
                             </li>
                             <li class="list-inline-item">
-                                <img src="assets/img/payment-bitcoin.svg" alt="bitcoin" width="50" />
+                                <img src="/assets/img/payment-bitcoin.svg" alt="bitcoin" width="50" />
                             </li>
                         </ul>
                     </div>
