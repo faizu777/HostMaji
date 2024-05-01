@@ -42,10 +42,7 @@ class Page_Controller extends Controller
     {
         return view('email-hosting');
     }
-    function domain_search_result()
-    {
-        return view('domain-search-result');
-    }
+    
     function faq()
     {
         return view('faq');
@@ -145,19 +142,19 @@ class Page_Controller extends Controller
     }
     function login_page()
     {
-return view('index');
+
     }
     function register_page()
     {
-return view('index');
+
     }
     function recover_password_page()
     {
-return view('index');
+
     }
 function freehosting_page()
 {
-    return view('freehosting');
+    
 }
 function Affiliate_Program_page()
 {
@@ -185,10 +182,10 @@ function Acceptable_Use_Policy_page()
 }
 function Blog_page()
 {
-
+return view('blog');
 }
 function Testimonials_page()
 {
-
+return view('testimonials');
 }
 }
