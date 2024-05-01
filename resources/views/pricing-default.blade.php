@@ -214,7 +214,7 @@
                                         <!--menu title with subtitle and icon item end-->
                                         <!--menu title with subtitle and icon item start-->
                                         <div class="title-with-icon-item">
-                                            <a class="title-with-icon-link" href="#">
+                                            <a class="title-with-icon-link" href="{{route('wp-hosting')}}">
                                                 <div class="media">
                                                     <div class="menu-item-icon"><i class="fab fa-wordpress"></i></div>
                                                     <div class="media-body">
@@ -768,6 +768,7 @@
     </div>
 
     <!--footer section start-->
+    <!--footer section start-->
     <footer class="footer-section">
         <!--footer top start-->
         <div class="footer-top gradient-bg">
@@ -795,19 +796,19 @@
                                     <h4 class="text-white">PRODUCTS</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">WordPress Hosting</a>
+                                            <a class="nav-link" href="{{route('wp-hosting') }}">WordPress Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Shared Hosting</a>
+                                            <a class="nav-link" href="{{route('shared-hosting')}}">Shared Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Virtual Private Servers</a>
+                                            <a class="nav-link" href="{{route('vps-hosting')}}">Virtual Private Servers</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Dedicated Servers</a>
+                                            <a class="nav-link" href="{{route('dedicated-server')}}">Dedicated Servers</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Domain Names</a>
+                                            <a class="nav-link" href="{{route('index')}}">Domain Names</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -817,19 +818,19 @@
                                     <h4 class="text-white">COMPANY</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
+                                            <a class="nav-link" href="{{route('data-centers')}}">Data Centers</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Affiliates</a>
+                                            <a class="nav-link" href="{{route('network')}}">Network Status</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Blog</a>
+                                            <a class="nav-link" href="{{ route('partners') }}">Partnerships</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Careers</a>
+                                            <a class="nav-link" href="{{route('accessibility')}}">Accessibility Statement</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Community</a>
+                                            <a class="nav-link" href="{{ route('community') }}">Community</a>
                                         </li>
                                     </ul>
 
@@ -840,19 +841,19 @@
                                     <h4 class="text-white">LEGAL</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Legal Information</a>
+                                            <a class="nav-link" href="{{route('terms-conditions')}}">Terms of Service</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Privacy Policy</a>
+                                            <a class="nav-link" href="{{route('privacy-policy')}}">Privacy Policy</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Report Abuse</a>
+                                            <a class="nav-link" href="{{route('acceptable-use-policy')}}">Acceptable Use Policy</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Terms of Service</a>
+                                            <a class="nav-link" href="{{route('blog')}}">Blog</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">WHOIS Lookup</a>
+                                            <a class="nav-link" href="{{route('testimonials')}}">Testimonials </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -862,19 +863,19 @@
                                     <h4 class="text-white">SUPPORT</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
+                                            <a class="nav-link" href="{{route('faq')}}">FAQ</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Knowledge Base</a>
+                                            <a class="nav-link" href="{{ route('support')}}">Support</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Forums</a>
+                                            <a class="nav-link" href="{{ route('knowledge-base')}}">Knowledge Base</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">System Status</a>
+                                            <a class="nav-link" href="{{route('affiliate-program')}}">Affiliate Program</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Support Team</a>
+                                            <a class="nav-link" href="{{route('careers')}}">Careers</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -922,6 +923,7 @@
         </div>
         <!--footer copyright end-->
     </footer>
+    <!--footer section end-->
     <!--footer section end-->
     <!--bottom to top button start-->
     <button class="scroll-top scroll-to-target" data-target="html">

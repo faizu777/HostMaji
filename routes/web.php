@@ -31,6 +31,7 @@ Route::get('/pricing-package', [Page_Controller::class, 'pricing_package'])->nam
 Route::get('/pricing-new', [Page_Controller::class, 'pricing_new'])->name('pricing-new');
 Route::get('/privacy-policy', [Page_Controller::class, 'privacy_policy'])->name('privacy-policy');
 Route::get('/services', [Page_Controller::class, 'services'])->name('services');
+Route::get('/wp-hosting', [Page_Controller::class, 'wp_hosting'])->name('wp-hosting');
 Route::get('/shared-hosting', [Page_Controller::class, 'shared_hosting'])->name('shared-hosting');
 Route::get('/shared-wp-hosting', [Page_Controller::class, 'shared_wp_hosting'])->name('shared-wp-hosting');
 Route::get('/woocommerce-hosting', [Page_Controller::class, 'woocommerce_hosting'])->name('woocommerce-hosting');
@@ -38,4 +39,12 @@ Route::get('/login', [Page_Controller::class, 'login_page'])->name('login');
 Route::get('/register', [Page_Controller::class, 'register_page'])->name('register');
 Route::get('/recover-password', [Page_Controller::class, 'recover_password_page'])->name('recover-password');
 Route::get('/freehosting', [Page_Controller::class, 'freehosting_page'])->name('freehosting');
+Route::get('/community', [Page_Controller::class, 'Community_page'])->name('community');
+Route::get('/accessibility', [Page_Controller::class, 'Accesibility_page'])->name('accessibility');
+Route::get('/affiliate-program', [Page_Controller::class, 'Affiliate_Program_page'])->name('affiliate-program');
+Route::get('/careers', [Page_Controller::class, 'Careers_page'])->name('careers');
+Route::get('/data-centers', [Page_Controller::class, 'Data_Centers_page'])->name('data-centers');
+Route::get('/acceptable-use-policy', [Page_Controller::class, 'Acceptable_Use_Policy_page'])->name('acceptable-use-policy');
+Route::get('/blog', [Page_Controller::class, 'Blog_page'])->name('blog');
+Route::get('/testimonials', [Page_Controller::class, 'Testimonials_page'])->name('testimonials');
 

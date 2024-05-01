@@ -159,4 +159,36 @@ function freehosting_page()
 {
     return view('freehosting');
 }
+function Affiliate_Program_page()
+{
+    
+}
+function Community_page()
+{
+
+}
+function Accesibility_page()
+{
+
+}
+function Careers_page()
+{
+
+}
+function Data_Centers_page()
+{
+
+}
+function Acceptable_Use_Policy_page()
+{
+
+}
+function Blog_page()
+{
+
+}
+function Testimonials_page()
+{
+
+}
 }
