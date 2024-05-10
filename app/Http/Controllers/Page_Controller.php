@@ -42,7 +42,7 @@ class Page_Controller extends Controller
     {
         return view('email-hosting');
     }
-    
+
     function faq()
     {
         return view('faq');
@@ -143,10 +143,11 @@ class Page_Controller extends Controller
     function login_page()
     {
 
+        return view('login');
     }
     function register_page()
     {
-
+return view('signup');
     }
     function recover_password_page()
     {
@@ -154,11 +155,11 @@ class Page_Controller extends Controller
     }
 function freehosting_page()
 {
-    
+
 }
 function Affiliate_Program_page()
 {
-    
+
 }
 function Community_page()
 {

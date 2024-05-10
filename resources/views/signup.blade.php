@@ -2,14 +2,14 @@
 <html lang="en">
 
 
-<!-- Mirrored from HostMaji.themetags.com/clients.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Apr 2024 05:12:55 GMT -->
+<!-- Mirrored from hostlar.themetags.com/signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Apr 2024 05:12:50 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- SEO Meta description -->
-    <meta name="description" content="HostMaji hosting template designed for all web hosting, business, multi purpose, domain sale websites, online business, personal hosting company and similar sites and many more.">
+    <meta name="description" content="Hostlar hosting template designed for all web hosting, business, multi purpose, domain sale websites, online business, personal hosting company and similar sites and many more.">
     <meta name="author" content="ThemeTags">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
     <!--title-->
-    <title>Clients - Hosting Provider with WHMCS Template</title>
+    <title>Signup - Hosting Provider with WHMCS Template</title>
 
     <!--build:css-->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -50,7 +50,8 @@
     </div>
     <!--loader end-->
     <!--header section start-->
-    <header id="header" class="header-main">
+     <!--header section start-->
+     <header id="header" class="header-main">
         <!--topbar start-->
         <div id="header-top-bar" class="gray-light-bg">
             <div class="container">
@@ -547,239 +548,86 @@
         <!--main header menu end-->
     </header>
     <!--header section end-->
-
     <!--header section end-->
 
     <div class="main">
-
-        <!--page header section start-->
-        <section class="page-header-section ptb-100 gradient-overly-right" style="background: url('assets/img/hero-14.jpg')no-repeat center center / cover">
+        <section class="gradient-overly-right ptb-100 height-lg-100vh d-flex align-items-center" style="background: url('assets/img/hero-bg-4.jpg')no-repeat center center / cover">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-7 col-lg-6">
-                        <div class="page-header-content text-white">
-                            <h1 class="text-white mb-2">Clients</h1>
-                            <p class="lead">Enthusiastically provide access to multidisciplinary communities and reliable quality vectors. Globally administrate robust.</p>
+                <div class="row justify-content-center pt-5 pt-sm-5 pt-md-5 pt-lg-0">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="card login-signup-card shadow-lg mb-0">
+                            <div class="card-body px-md-5 py-5">
+                                <div class="mb-5">
+                                    <h5 class="h3">Create account</h5>
+                                    <p class="text-muted mb-0">Made with love by developers for developers.</p>
+                                </div>
+                                <form class="login-signup-form">
+                                    <div class="form-group">
+                                        <!-- Label -->
+                                        <label class="pb-1">
+                                            Your Name
+                                        </label>
+                                        <!-- Input group -->
+                                        <div class="input-group input-group-merge">
+                                            <div class="input-icon">
+                                                <span class="ti-user color-primary"></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Enter your name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <!-- Label -->
+                                        <label class="pb-1">
+                                            Email Address
+                                        </label>
+                                        <!-- Input group -->
+                                        <div class="input-group input-group-merge">
+                                            <div class="input-icon">
+                                                <span class="ti-email color-primary"></span>
+                                            </div>
+                                            <input type="email" class="form-control" placeholder="name@address.com">
+                                        </div>
+                                    </div>
+
+                                    <!-- Password -->
+                                    <div class="form-group">
+                                        <!-- Label -->
+                                        <label class="pb-1">
+                                            Password
+                                        </label>
+                                        <!-- Input group -->
+                                        <div class="input-group input-group-merge">
+                                            <div class="input-icon">
+                                                <span class="ti-lock color-primary"></span>
+                                            </div>
+                                            <input type="password" class="form-control" placeholder="Enter your password">
+                                        </div>
+                                    </div>
+
+                                    <div class="my-4">
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="checkbox" class="custom-control-input" id="check-terms">
+                                            <label class="custom-control-label" for="check-terms">I agree to the <a href="terms-condition.html">terms and conditions</a></label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit -->
+                                    <button class="btn btn-block primary-solid-btn border-radius mt-4 mb-3">
+                                        Sign up
+                                    </button>
+                                </form>
+
+                            </div>
+                            <div class="card-footer px-md-5 bg-transparent border-top"><small>Already have an acocunt?</small>
+                                <a href="{{ route('login')}}" class="small">Sign in</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--page header section end-->
-
-        <!--breadcrumb bar start-->
-        <div class="breadcrumb-bar py-3 gray-light-bg border-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="custom-breadcrumb">
-                            <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0 pl-0">
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Elements</a></li>
-                                <li class="list-inline-item breadcrumb-item active">Clients</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--breadcrumb bar end-->
-
-        <!--client section start-->
-        <section class="client-section ptb-100">
-            <div class="container">
-                <!--clients logo start-->
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <div class="section-heading text-center mb-5">
-                            <h2>Trusted by Companies</h2>
-                            <p class="lead">
-                                Rapidiously morph transparent internal or "organic" sources whereas resource sucking
-                                e-business. Conveniently innovate compelling internal.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-md-12">
-                        <div class="overlay-opacity-gradient"></div>
-                        <div class="owl-carousel owl-theme clients-carousel dot-indicator">
-                            <div class="item single-client">
-                                <img src="assets/img/clients-logo-01.png" alt="client logo" class="img-fluid client-img">
-                            </div>
-                            <div class="item single-client">
-                                <img src="assets/img/clients-logo-02.png" alt="client logo" class="img-fluid client-img">
-                            </div>
-                            <div class="item single-client">
-                                <img src="assets/img/clients-logo-03.png" alt="client logo" class="img-fluid client-img">
-                            </div>
-                            <div class="item single-client">
-                                <img src="assets/img/clients-logo-04.png" alt="client logo" class="img-fluid client-img">
-                            </div>
-                            <div class="item single-client">
-                                <img src="assets/img/clients-logo-05.png" alt="client logo" class="img-fluid client-img">
-                            </div>
-                            <div class="item single-client">
-                                <img src="assets/img/clients-logo-06.png" alt="client logo" class="img-fluid client-img">
-                            </div>
-                            <div class="item single-client">
-                                <img src="assets/img/clients-logo-07.png" alt="client logo" class="img-fluid client-img">
-                            </div>
-                            <div class="item single-client">
-                                <img src="assets/img/clients-logo-08.png" alt="client logo" class="img-fluid client-img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--clients logo end-->
-            </div>
-        </section>
-        <!--client section start-->
-
-        <!--out partner section start-->
-        <section class="our-partner-section ptb-100 gray-light-bg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-9 col-lg-8">
-                        <div class="section-heading text-center mb-2">
-                            <h2>Meet With Our Valuable Partner</h2>
-                            <p class="lead">
-                                Authoritatively evisculate team building intellectual capital through functional leadership.
-                                Interactively recaptiualize exceptional process.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-lg-3">
-                        <div class="single-partner-wrap card-bottom-line white-bg shadow-sm rounded text-center p-4 mt-4">
-                            <div class="partner-logo mb-3">
-                                <img src="assets/img/clients-logo-01.png" alt="partner logo" class="img-fluid" />
-                            </div>
-                            <div class="partner-heading mb-2">
-                                <h5 class="mb-0">Wellness</h5>
-                                <h6><strong>Datacenter Partner</strong></h6>
-                            </div>
-                            <div class="partner-info">
-                                <p>Authoritatively leverage other's market positioning items without effective.</p>
-                                <a href="#" class="view-details-link">Get more info<span class="ti-angle-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="single-partner-wrap card-bottom-line white-bg shadow-sm rounded text-center p-4 mt-4">
-                            <div class="partner-logo mb-3">
-                                <img src="assets/img/clients-logo-02.png" alt="partner logo" class="img-fluid" />
-                            </div>
-                            <div class="partner-heading mb-2">
-                                <h5 class="mb-0">Alfatech</h5>
-                                <h6><strong>Security Partner</strong></h6>
-                            </div>
-                            <div class="partner-info">
-                                <p>Authoritatively leverage other's market positioning items without effective.</p>
-                                <a href="#" class="view-details-link">Get more info<span class="ti-angle-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="single-partner-wrap card-bottom-line white-bg shadow-sm rounded text-center p-4 mt-4">
-                            <div class="partner-logo mb-3">
-                                <img src="assets/img/clients-logo-03.png" alt="partner logo" class="img-fluid" />
-                            </div>
-                            <div class="partner-heading mb-2">
-                                <h5 class="mb-0">Analogoes</h5>
-                                <h6><strong>Network Partner</strong></h6>
-                            </div>
-                            <div class="partner-info">
-                                <p>Authoritatively leverage other's market positioning items without effective.</p>
-                                <a href="#" class="view-details-link">Get more info<span class="ti-angle-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="single-partner-wrap card-bottom-line white-bg shadow-sm rounded text-center p-4 mt-4">
-                            <div class="partner-logo mb-3">
-                                <img src="assets/img/clients-logo-04.png" alt="partner logo" class="img-fluid" />
-                            </div>
-                            <div class="partner-heading mb-2">
-                                <h5 class="mb-0">Cafe 40</h5>
-                                <h6><strong>Datacenter Partner</strong></h6>
-                            </div>
-                            <div class="partner-info">
-                                <p>Authoritatively leverage other's market positioning items without effective.</p>
-                                <a href="#" class="view-details-link">Get more info<span class="ti-angle-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="single-partner-wrap card-bottom-line white-bg shadow-sm rounded text-center p-4 mt-4">
-                            <div class="partner-logo mb-3">
-                                <img src="assets/img/clients-logo-05.png" alt="partner logo" class="img-fluid" />
-                            </div>
-                            <div class="partner-heading mb-2">
-                                <h5 class="mb-0">Wellness</h5>
-                                <h6><strong>Datacenter Partner</strong></h6>
-                            </div>
-                            <div class="partner-info">
-                                <p>Authoritatively leverage other's market positioning items without effective.</p>
-                                <a href="#" class="view-details-link">Get more info<span class="ti-angle-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="single-partner-wrap card-bottom-line white-bg shadow-sm rounded text-center p-4 mt-4">
-                            <div class="partner-logo mb-3">
-                                <img src="assets/img/clients-logo-06.png" alt="partner logo" class="img-fluid" />
-                            </div>
-                            <div class="partner-heading mb-2">
-                                <h5 class="mb-0">A & R</h5>
-                                <h6><strong>Security Partner</strong></h6>
-                            </div>
-                            <div class="partner-info">
-                                <p>Authoritatively leverage other's market positioning items without effective.</p>
-                                <a href="#" class="view-details-link">Get more info<span class="ti-angle-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="single-partner-wrap card-bottom-line white-bg shadow-sm rounded text-center p-4 mt-4">
-                            <div class="partner-logo mb-3">
-                                <img src="assets/img/clients-logo-07.png" alt="partner logo" class="img-fluid" />
-                            </div>
-                            <div class="partner-heading mb-2">
-                                <h5 class="mb-0">Survatan</h5>
-                                <h6><strong>Network Partner</strong></h6>
-                            </div>
-                            <div class="partner-info">
-                                <p>Authoritatively leverage other's market positioning items without effective.</p>
-                                <a href="#" class="view-details-link">Get more info<span class="ti-angle-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="single-partner-wrap card-bottom-line white-bg shadow-sm rounded text-center p-4 mt-4">
-                            <div class="partner-logo mb-3">
-                                <img src="assets/img/clients-logo-08.png" alt="partner logo" class="img-fluid" />
-                            </div>
-                            <div class="partner-heading mb-2">
-                                <h5 class="mb-0">Wellness</h5>
-                                <h6><strong>Datacenter Partner</strong></h6>
-                            </div>
-                            <div class="partner-info">
-                                <p>Authoritatively leverage other's market positioning items without effective.</p>
-                                <a href="#" class="view-details-link">Get more info<span class="ti-angle-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!--out partner section end-->
-
     </div>
 
-    <!--footer section start-->
     <!--footer section start-->
     <footer class="footer-section">
         <!--footer top start-->
@@ -940,21 +788,21 @@
     </button>
     <!--bottom to top button end-->
     <!--build:js-->
-    <script src="/assets/js/vendors/jquery-3.5.1.min.js"></script>
-    <script src="/assets/js/vendors/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/vendors/bootstrap-slider.min.js"></script>
-    <script src="/assets/js/vendors/jquery.countdown.min.js"></script>
-    <script src="/assets/js/vendors/jquery.easing.min.js"></script>
-    <script src="/assets/js/vendors/owl.carousel.min.js"></script>
-    <script src="/assets/js/vendors/validator.min.js"></script>
-    <script src="/assets/js/vendors/jquery.waypoints.min.js"></script>
-    <script src="/assets/js/vendors/jquery.rcounterup.js"></script>
-    <script src="/assets/js/vendors/magnific-popup.min.js"></script>
-    <script src="/assets/js/vendors/hs.megamenu.js"></script>
+    <script src="assets/js/vendors/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/bootstrap-slider.min.js"></script>
+    <script src="assets/js/vendors/jquery.countdown.min.js"></script>
+    <script src="assets/js/vendors/jquery.easing.min.js"></script>
+    <script src="assets/js/vendors/owl.carousel.min.js"></script>
+    <script src="assets/js/vendors/validator.min.js"></script>
+    <script src="assets/js/vendors/jquery.waypoints.min.js"></script>
+    <script src="assets/js/vendors/jquery.rcounterup.js"></script>
+    <script src="assets/js/vendors/magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/hs.megamenu.js"></script>
     <script src="assets/js/app.js"></script>
     <!--endbuild-->
 </body>
 
 
-<!-- Mirrored from HostMaji.themetags.com/clients.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Apr 2024 05:12:55 GMT -->
+<!-- Mirrored from hostlar.themetags.com/signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Apr 2024 05:12:50 GMT -->
 </html>

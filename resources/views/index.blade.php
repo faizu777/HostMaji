@@ -114,7 +114,7 @@
                             <!--home end-->
 
                             <!--pages start-->
-                            
+
                             <!--hosting start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="720px" data-position="right">
                                 <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Hosting</a>
@@ -249,7 +249,7 @@
                             </li>
                             <!--hosting end-->
 
-                            
+
                             <!--support start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="360px" data-position="right">
                                 <a id="supportMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Support</a>
@@ -351,7 +351,7 @@
                                     <li class="nav-item submenu-item">
                                         <a class="nav-link sub-menu-nav-link" href="{{route('services')}}">Our Services</a>
                                     </li>
-                                    
+
                                     <li class="nav-item submenu-item">
                                         <a class="nav-link sub-menu-nav-link" href="{{route('team')}}">Team </a>
                                     </li>
@@ -369,7 +369,7 @@
                                             <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-new')}}">New Pricing <span class="badge badge-success ml-2">New</span></a></li>
                                         </ul>
                                     </li>
-                                    
+
 
                                     <li class="hs-has-sub-menu">
                                         <a id="navLinkPagesLogin" class="nav-link sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesLogin">Login &amp; Signup</a>
@@ -380,7 +380,7 @@
                                             <li><a class="nav-link sub-menu-nav-link" href="{{route('register')}}">Signup</a>
                                             </li>
                                             <li><a class="nav-link sub-menu-nav-link" href="{{route('recover-password')}}">Recover Account</a></li>
-                                           
+
                                         </ul>
                                     </li>
                                     <li class="hs-has-sub-menu">
@@ -396,7 +396,7 @@
                                             <li><a class="nav-link sub-menu-nav-link" href="{{route('privacy-policy')}}">Privacy &amp; Policy</a></li>
                                         </ul>
                                     </li>
-                                   
+
                                     <!-- Specialty -->
                                 </ul>
                                 <!-- End Pages - Submenu -->
@@ -443,7 +443,7 @@
                                     <!--menu title with subtitle and icon item end-->
 
                                     <!--menu title with subtitle and icon item start-->
-                                   
+
                                     <div class="title-with-icon-item">
                                         <a class="title-with-icon-link" href="{{route('about')}}">
                                             <div class="media align-items-center">
@@ -503,7 +503,7 @@
                                     </div>
                                     <!--menu title with subtitle and icon item end-->
 
-                                   
+
 
                                     <!--submenu footer start-->
                                     <div class="u-header__promo-footer pb-0">
@@ -553,30 +553,15 @@
         <section class="hero-equal-height ptb-100 gradient-overlay gradient-bg" style="background: url('assets/img/hero-bg-2.jpg')no-repeat center center / cover">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-18">
                         <div class="hero-content-wrap text-white">
                             <h1 class="text-white">HostMaji Best Hosting Provider in World</h1>
                             <p class="lead">If your WordPress website is your personal business, we
                                 want you to succeed. We made our HostMaji hosting & domain service provider platform.</p>
-                            <form action="http://HostMaji.themetags.com/domain-search-result.php" class="domain-search-form mt-3">
-                                <div class="input-group">
-                                    <input type="text" name="domain" id="domain" class="form-control" placeholder="example.com" />
-                                    <div class="input-group-append">
-                                        <button class="btn search-btn btn-hover d-flex align-items-center" type="submit">
-                                            <span class="ti-search mr-2"></span> Search
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="domain-list-wrap mt-4">
-                                <ul class="list-inline domain-search-list text-white">
-                                    <li class="list-inline-item"><a href="#"><img src="assets/img/com-w.png" alt="com" width="75" class="img-fluid" /> <span>₹ 799</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="assets/img/net-w.png" alt="com" width="75" class="img-fluid" /> <span>₹ 499</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="assets/img/org-w.png" alt="com" width="75" class="img-fluid" /> <span>₹ 299</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="assets/img/store-w.png" alt="com" width="75" class="img-fluid" /> <span>₹199</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="assets/img/online-w.png" alt="com" width="75" class="img-fluid" /> <span>₹99</span></a></li>
-                                </ul>
-                            </div>
+
+                                <a class="btn primary-solid-btn animated-btn" href="#" target="_blank">
+                                    Get Started
+                                </a>
                         </div>
                     </div>
                     <div class="col-lg-5 col-12">
@@ -1043,12 +1028,11 @@
                                 </a>
                                 <div id="collapseOne" class="collapse" data-parent="#accordion-one">
                                     <div class="card-body">
-                                        <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident.
-                                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                            farm-to-table, raw denim aesthetic
-                                            synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                            VHS.
+                                        <p class="text text-primary" >Web hosting is a service that allows individuals and organizations to
+                                             make their websites accessible via the World Wide Web. In
+                                            simpler terms, it's like renting space on a computer server to store
+                                             and serve your website files to users when they access your domain name
+                                             through their web browsers.
                                         </p>
                                     </div>
                                 </div>
@@ -1060,10 +1044,19 @@
                                 </a>
                                 <div id="collapseTwo" class="collapse" data-parent="#accordion-one">
                                     <div class="card-body">
-                                        <p>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                                            raw denim aesthetic
-                                            synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                            VHS.
+                                        <p><b class="text text-primary">Shared Hosting:</b> This is the most affordable option where multiple websites share resources on a single server. It's suitable for small businesses, personal websites, and blogs.
+                                            <br>
+                                            <b class="text text-primary">Virtual Private Servers (VPS):</b> VPS hosting provides more control and resources than shared hosting. Each website resides in its own virtual environment on a shared server, offering better performance and security.
+                                            <br>
+                                            <b class="text text-primary">Dedicated Servers:</b> With dedicated hosting, you get an entire physical server dedicated to your website. This option offers the highest level of performance, control, and security, making it ideal for large businesses and high-traffic websites.
+                                            Managed WordPress Hosting: DreamHost offers optimized hosting specifically for WordPress websites. This includes features like automatic updates, enhanced security, and specialized support tailored for WordPress users.
+                                           <br>
+
+                                            <b class="text text-primary"> WooCommerce Hosting:</b> Designed for online stores built on the WooCommerce platform, this hosting option provides specialized support for e-commerce websites, including features like one-click setup and automatic updates.
+                                           <br>
+                                           <b class="text text-primary"> Cloud Hosting:</b> DreamHost's cloud hosting solutions offer scalability and flexibility by distributing resources across multiple servers. This ensures high availability and reliability, making it suitable for websites with fluctuating traffic levels.
+                                           <br>
+                                           <b class="text text-primary"> Website Builder Hosting:</b> DreamHost offers a website builder tool along with hosting services, allowing users to create and publish websites without needing coding knowledge. This option is perfect for individuals and small businesses looking to quickly establish an online presence.
                                         </p>
                                     </div>
                                 </div>
@@ -1076,12 +1069,23 @@
                                 </a>
                                 <div id="collapseThree" class="collapse" data-parent="#accordion-one">
                                     <div class="card-body">
-                                        <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident.
-                                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                            farm-to-table, raw denim aesthetic
-                                            synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                            VHS.
+                                        <p><b  class="text text-primary">Choose a Domain Registrar:</b> Start by selecting a domain registrar. Popular options include GoDaddy, Namecheap, Google Domains, and Bluehost.
+                                            <br>
+                                            <b class="text text-primary">Search for Available Domains: </b>Use the registrar's search tool to check if your desired domain name is available. If it's not, you may need to try different variations or consider alternative extensions (.com, .net, .org, etc.).
+                                            <br>
+                                            <b class="text text-primary">Select Your Domain: </b>Once you find an available domain name that suits your needs, add it to your cart.
+                                            <br>
+                                            <b class="text text-primary">Review Your Cart:</b> Review the items in your cart, including the domain name(s) and any additional services the registrar may offer, such as privacy protection or website hosting.
+                                            <br>
+                                            <b class="text text-primary">Complete the Purchase:</b> Proceed to checkout and follow the prompts to enter your payment information and complete the purchase.
+                                           <br>
+                                           <b class="text text-primary">Set Up Your Account:</b> After purchasing the domain, you'll typically need to create an account with the registrar if you haven't already done so. This account will allow you to manage your domain settings, renewals, and other features.
+                                           <br>
+                                           <b class="text text-primary">Configure DNS Settings:</b> Once you have access to your domain management dashboard, you can configure your domain's DNS settings. This involves pointing your domain to your web hosting provider's servers if you're setting up a website.
+                                           <br>
+                                           <b class="text text-primary">Optional:</b> Enable Privacy Protection: Many registrars offer privacy protection services to keep your personal information, such as your name and contact details, private in the WHOIS database. Consider enabling this feature if you want to maintain your privacy.
+                                           <br>
+                                           <b class="text text-primary">Renew Your Domain:</b> Domain names are typically registered for a set period (usually one year), after which they need to be renewed to maintain ownership. Set up auto-renewal if you want to ensure that your domain doesn't expire accidentally.
                                         </p>
                                     </div>
                                 </div>
@@ -1094,10 +1098,22 @@
                                 </a>
                                 <div id="collapseFour" class="collapse" data-parent="#accordion-one">
                                     <div class="card-body">
-                                        <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                            sapiente ea proident.
-                                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                            farm-to-table.
+                                        <p><b class="text text-primary"> Source Platform:</b> WordPress is an open-source platform, which means its source code is freely available for anyone to use, modify, and distribute. This has contributed to its widespread adoption and vibrant developer community.
+                                           <br>
+
+                                        <b class="text text-primary"> Versatility:</b> WordPress is incredibly versatile and can be used to create almost any type of website, from simple blogs to complex e-commerce sites, portfolios, forums, and more. Its flexibility comes from its extensive library of themes and plugins, which allow you to customize and extend its functionality to suit your needs.
+                                        <br>
+                                        <b class="text text-primary"> Themes: </b>  Themes control the design and layout of your WordPress site. There are thousands of free and premium themes available, allowing you to choose a design that matches your brand or personal style. You can also customize themes or create your own from scratch if you have the technical expertise.
+                                        <br>
+                                        <b class="text text-primary"> Plugins:</b> Plugins are like apps for your WordPress site. They add specific features and functionality, such as contact forms, SEO optimization, e-commerce capabilities, social media integration, and more. With thousands of plugins available, you can easily enhance your site's functionality without needing to code everything yourself.
+                                        <br>
+                                        <b class="text text-primary"> User-friendly Interface:</b> WordPress has a user-friendly interface that makes it easy for beginners to create and manage content. You can add new pages or blog posts, upload media files, and customize your site's appearance without needing to write any code.
+                                        <br>
+                                        <b class="text text-primary"> Community Support:</b> WordPress has a large and active community of users, developers, designers, and contributors who provide support, share knowledge, and create resources such as tutorials, forums, and documentation. This makes it easy to find help and resources if you run into any issues or have questions about using WordPress.
+                                        <br>
+                                        <b class="text text-primary"> SEO-Friendly:</b> WordPress is designed with search engine optimization (SEO) in mind, making it easy to optimize your site for better visibility in search engine results. There are also several SEO plugins available that can help you further optimize your content and improve your site's ranking.
+                                        <br>
+                                        <b class="text text-primary"> Overall, WordPress is a powerful and flexible platform that can help you create professional-looking websites and blogs with ease. Whether you're a beginner or an experienced web developer, WordPress offers the tools and resources you need to bring your ideas to life online.</b>
                                         </p>
                                     </div>
                                 </div>
@@ -1134,10 +1150,10 @@
                             </ul>
                             <div class="ratting-content">
                                 <h5>Awesome support from technical</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively maximize 2.0 relationships whereas process-centric.</p>
+                                <p>"Exceptional technical support! The team went above and beyond to resolve my issue swiftly, efficiently, and with utmost professionalism. Highly recommend their stellar service!"</p>
                             </div>
                             <div class="ratting-author mt-3">
-                                <h6>Alex Khamer</h6>
+                                <h6>Abdul Rahman</h6>
                                 <small class="text-right">6 days ago</small>
                             </div>
                         </div>
@@ -1153,10 +1169,10 @@
                             </ul>
                             <div class="ratting-content">
                                 <h5>Awesome Design Quality with Support</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models maximize 2.0 relationships whereas methodologies.</p>
+                                <p>It's fantastic to hear that you're pleased with both the design quality and the support you've received! If there's anything else you need assistance with, just let us know.</p>
                             </div>
                             <div class="ratting-author mt-3">
-                                <h6>Peter Anderson</h6>
+                                <h6>Aman Gupta</h6>
                                 <small class="text-right">3 days ago</small>
                             </div>
                         </div>
@@ -1172,10 +1188,10 @@
                             </ul>
                             <div class="ratting-content">
                                 <h5>Contacted support after Midnight</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively maximize 2.0 relationships whereas process-centric.</p>
+                                <p>Contacting support after midnight? That's dedication! We're here around the clock to assist you whenever you need it. Let us know if there's anything we can help with.</p>
                             </div>
                             <div class="ratting-author mt-3">
-                                <h6>Jolio Darix</h6>
+                                <h6>Priya Rawat</h6>
                                 <small class="text-right">8 days ago</small>
                             </div>
                         </div>
@@ -1198,13 +1214,10 @@
                         <div class="row footer-top-wrap">
                             <div class="col-12">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">SECURED BY</h4>
-                                    <ul class="list-inline security-icon-list">
-                                        <li class="list-inline-item"><img src="assets/img/mcafee-logo.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="assets/img/norton-logo.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="assets/img/accredited-logo.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="assets/img/secured-logo.png" width="110" alt="security" class="img-fluid" /></li>
-                                    </ul>
+                                    <h4 class="text-white">About us</h4>
+                                    <p>
+                                        Welcome to HostMaji, your reliable partner in web hosting solutions. We are a proud initiative of SoftMaji InfoTech Private Limited, committed to providing exceptional hosting services at no cost.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -1215,6 +1228,9 @@
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">PRODUCTS</h4>
                                     <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{route('freehosting')}}">Free Hosting</a>
+                                        </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{route('wp-hosting') }}">WordPress Hosting</a>
                                         </li>
@@ -1227,9 +1243,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{route('dedicated-server')}}">Dedicated Servers</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{route('index')}}">Domain Names</a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -1238,19 +1252,19 @@
                                     <h4 class="text-white">COMPANY</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{route('data-centers')}}">Data Centers</a>
+                                            <a class="nav-link" href="{{route('about')}}">About Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{route('network')}}">Network Status</a>
+                                            <a class="nav-link" href="{{route('team')}}">Our Team</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('partners') }}">Partnerships</a>
+                                            <a class="nav-link" href="{{  route('contact') }}">Contact Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{route('accessibility')}}">Accessibility Statement</a>
+                                            <a class="nav-link" href="{{route('clients')}}">Our Clients</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('community') }}">Community</a>
+                                            <a class="nav-link" href="{{ route('partners') }}">Our Partners</a>
                                         </li>
                                     </ul>
 
@@ -1312,9 +1326,9 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">
-                        <p class="copyright-text pb-0 mb-0">Copyrights © 2021. All
+                        <p class="copyright-text pb-0 mb-0">Copyrights © 2024. All
                             rights reserved by
-                            <a href="https://themeforest.net/user/themetags" target="_blank">ThemeTags</a>
+                            <a href="https://softmaji.in" target="_blank">SoftMaji</a>
                         </p>
                     </div>
                     <div class="col-md-7 col-lg-6">

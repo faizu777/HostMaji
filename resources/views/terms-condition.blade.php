@@ -115,7 +115,7 @@
                         <!--home end-->
 
                         <!--pages start-->
-                        
+
                         <!--hosting start-->
                         <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="720px" data-position="right">
                             <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Hosting</a>
@@ -250,7 +250,7 @@
                         </li>
                         <!--hosting end-->
 
-                        
+
                         <!--support start-->
                         <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="360px" data-position="right">
                             <a id="supportMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Support</a>
@@ -352,7 +352,7 @@
                                 <li class="nav-item submenu-item">
                                     <a class="nav-link sub-menu-nav-link" href="{{route('services')}}">Our Services</a>
                                 </li>
-                                
+
                                 <li class="nav-item submenu-item">
                                     <a class="nav-link sub-menu-nav-link" href="{{route('team')}}">Team </a>
                                 </li>
@@ -370,7 +370,7 @@
                                         <li><a class="nav-link sub-menu-nav-link" href="{{route('pricing-new')}}">New Pricing <span class="badge badge-success ml-2">New</span></a></li>
                                     </ul>
                                 </li>
-                                
+
 
                                 <li class="hs-has-sub-menu">
                                     <a id="navLinkPagesLogin" class="nav-link sub-menu-nav-link sub-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="navSubmenuPagesLogin">Login &amp; Signup</a>
@@ -381,7 +381,7 @@
                                         <li><a class="nav-link sub-menu-nav-link" href="{{route('register')}}">Signup</a>
                                         </li>
                                         <li><a class="nav-link sub-menu-nav-link" href="{{route('recover-password')}}">Recover Account</a></li>
-                                       
+
                                     </ul>
                                 </li>
                                 <li class="hs-has-sub-menu">
@@ -397,7 +397,7 @@
                                         <li><a class="nav-link sub-menu-nav-link" href="{{route('privacy-policy')}}">Privacy &amp; Policy</a></li>
                                     </ul>
                                 </li>
-                               
+
                                 <!-- Specialty -->
                             </ul>
                             <!-- End Pages - Submenu -->
@@ -444,7 +444,7 @@
                                 <!--menu title with subtitle and icon item end-->
 
                                 <!--menu title with subtitle and icon item start-->
-                               
+
                                 <div class="title-with-icon-item">
                                     <a class="title-with-icon-link" href="{{route('about')}}">
                                         <div class="media align-items-center">
@@ -504,7 +504,7 @@
                                 </div>
                                 <!--menu title with subtitle and icon item end-->
 
-                               
+
 
                                 <!--submenu footer start-->
                                 <div class="u-header__promo-footer pb-0">
@@ -785,8 +785,7 @@
     </div>
 
     <!--footer section start-->
-     <!--footer section start-->
-     <footer class="footer-section">
+    <footer class="footer-section">
         <!--footer top start-->
         <div class="footer-top gradient-bg">
             <div class="container">
@@ -795,13 +794,10 @@
                         <div class="row footer-top-wrap">
                             <div class="col-12">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">SECURED BY</h4>
-                                    <ul class="list-inline security-icon-list">
-                                        <li class="list-inline-item"><img src="assets/img/mcafee-logo.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="assets/img/norton-logo.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="assets/img/accredited-logo.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="assets/img/secured-logo.png" width="110" alt="security" class="img-fluid" /></li>
-                                    </ul>
+                                    <h4 class="text-white">About us</h4>
+                                    <p>
+                                        Welcome to HostMaji, your reliable partner in web hosting solutions. We are a proud initiative of SoftMaji InfoTech Private Limited, committed to providing exceptional hosting services at no cost.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -812,6 +808,9 @@
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">PRODUCTS</h4>
                                     <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{route('freehosting')}}">Free Hosting</a>
+                                        </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{route('wp-hosting') }}">WordPress Hosting</a>
                                         </li>
@@ -824,9 +823,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{route('dedicated-server')}}">Dedicated Servers</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{route('index')}}">Domain Names</a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -835,19 +832,19 @@
                                     <h4 class="text-white">COMPANY</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{route('data-centers')}}">Data Centers</a>
+                                            <a class="nav-link" href="{{route('about')}}">About Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{route('network')}}">Network Status</a>
+                                            <a class="nav-link" href="{{route('team')}}">Our Team</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('partners') }}">Partnerships</a>
+                                            <a class="nav-link" href="{{  route('contact') }}">Contact Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{route('accessibility')}}">Accessibility Statement</a>
+                                            <a class="nav-link" href="{{route('clients')}}">Our Clients</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('community') }}">Community</a>
+                                            <a class="nav-link" href="{{ route('partners') }}">Our Partners</a>
                                         </li>
                                     </ul>
 
@@ -909,9 +906,9 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">
-                        <p class="copyright-text pb-0 mb-0">Copyrights © 2021. All
+                        <p class="copyright-text pb-0 mb-0">Copyrights © 2024. All
                             rights reserved by
-                            <a href="https://themeforest.net/user/themetags" target="_blank">ThemeTags</a>
+                            <a href="https://softmaji.in" target="_blank">SoftMaji</a>
                         </p>
                     </div>
                     <div class="col-md-7 col-lg-6">
@@ -940,7 +937,6 @@
         </div>
         <!--footer copyright end-->
     </footer>
-    <!--footer section end-->
     <!--footer section end-->
     <!--bottom to top button start-->
     <button class="scroll-top scroll-to-target" data-target="html">

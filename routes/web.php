@@ -6,7 +6,7 @@ use App\Http\Controllers\Page_Controller;
 
 // Pages Routes
 Route::scopeBindings()->group(function () {
-   
+
 
 Route::get('/', [Page_Controller::class, 'index'])->name('index');
 Route::get('/about-us', [Page_Controller::class, 'about_us'])->name('about');
@@ -43,7 +43,7 @@ Route::get('/woocommerce-hosting', [Page_Controller::class, 'woocommerce_hosting
 Route::get('/login', [Page_Controller::class, 'login_page'])->name('login');
 Route::get('/register', [Page_Controller::class, 'register_page'])->name('register');
 Route::get('/recover-password', [Page_Controller::class, 'recover_password_page'])->name('recover-password');
-Route::get('/freehosting', [Page_Controller::class, 'freehosting_page'])->name('freehosting');
+Route::get('/Free-hosting', [Page_Controller::class, 'freehosting_page'])->name('freehosting');
 Route::get('/community', [Page_Controller::class, 'Community_page'])->name('community');
 Route::get('/accessibility', [Page_Controller::class, 'Accesibility_page'])->name('accessibility');
 Route::get('/affiliate-program', [Page_Controller::class, 'Affiliate_Program_page'])->name('affiliate-program');
