@@ -576,7 +576,7 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-8">
                         <div class="custom-plan-box white-bg custom-shadow">
-                            <input id="c-plan" type="text" data-slider-min="1" data-slider-max="12" data-slider-step="1" data-slider-value="6" data-currency="$" data-unit="">
+                            <input id="c-plan" type="text" data-slider-min="1" data-slider-max="12" data-slider-step="1" data-slider-value="6" data-currency=" Rs" data-unit="">
 
                             <ul class="list-inline mt-5 custom-vps-list text-center">
                                 <li class="list-inline-item">
@@ -669,7 +669,9 @@
                                     <td data-value="Bandwidth">1000GB</td>
                                     <td data-value="Price">
                                         <p>
-                                            <span class="rate">$3.95<span>/month</span></span>
+                                            <span class="rate">₹
+                                               209
+                                                <span>/month</span></span>
                                             <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 30%</span></span>
                                         </p>
                                     </td>
@@ -694,7 +696,8 @@
                                     <td data-value="Bandwidth">2000GB</td>
                                     <td data-value="Price">
                                         <p>
-                                            <span class="rate">$8.95<span>/month</span></span>
+                                            <span class="rate">₹
+                                                450 <span>/month</span></span>
                                             <span class="pricing-onsale">On sale - <span class="badge color-1 color-1-bg">Save 50%</span></span>
                                         </p>
                                     </td>
@@ -719,7 +722,9 @@
                                     <td data-value="Bandwidth">3000GB</td>
                                     <td data-value="Price">
                                         <p>
-                                            <span class="rate">$12.95<span>/month</span></span>
+                                            <span class="rate">₹
+                                                650
+                                                <span>/month</span></span>
                                             <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 10%</span></span>
                                         </p>
                                     </td>
@@ -743,7 +748,9 @@
                                     </td>
                                     <td data-value="Bandwidth">4000GB</td>
                                     <td data-value="Price">
-                                        <p><span class="rate">$15.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                        <p><span class="rate">₹
+                                            1100
+                                            <span>/month</span></span><span class="pricing-onsale">On sale - <span
                                             class="badge color-3 color-3-bg">Save 30%</span></span></p>
                                     </td>
                                     <td>
@@ -766,7 +773,8 @@
                                     </td>
                                     <td data-value="Bandwidth">6000GB</td>
                                     <td data-value="Price">
-                                        <p><span class="rate">$23.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                        <p><span class="rate">₹
+                                            2000<span>/month</span></span><span class="pricing-onsale">On sale - <span
                                             class="badge color-5 color-5-bg">Save 40%</span></span></p>
                                     </td>
                                     <td>
@@ -789,7 +797,8 @@
                                     </td>
                                     <td data-value="Bandwidth">8000GB</td>
                                     <td data-value="Price">
-                                        <p><span class="rate">$29.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                        <p><span class="rate">₹
+                                            4800<span>/month</span></span><span class="pricing-onsale">On sale - <span
                                             class="badge color-3 color-3-bg">Save 10%</span></span></p>
                                     </td>
                                     <td>

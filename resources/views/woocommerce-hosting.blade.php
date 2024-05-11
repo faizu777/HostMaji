@@ -560,7 +560,7 @@
                     <div class="col-md-7 col-lg-8">
                         <div class="hero-content-wrap text-white position-relative z-index">
                             <h1 class="text-white">Make Selling Easier with WooCommerce</h1>
-                            <p class="lead">Sell anything, anywhere, anytime on the world's biggest eCommerce platform. Up to 50% Off domain and hosting, Starting from $2.99/month.</p>
+                            <p class="lead">Sell anything, anywhere, anytime on the world's biggest eCommerce platform. Up to 50% Off domain and hosting, Starting from ₹ 333/month.</p>
                             <ul class="list-unstyled">
                                 <li class="py-1">
                                     <div class="d-flex align-items-center">
@@ -588,7 +588,7 @@
                                 </li>
                             </ul>
                             <div class="action-btns mt-4">
-                                <p>Get all the essentials features <strong>Starting at $6.59/mo</strong></p>
+                                <p>Get all the essentials features <strong>Starting at ₹249/mo</strong></p>
                             </div>
                         </div>
                     </div>
@@ -596,9 +596,9 @@
                         <div class="offer-box text-white text-center py-5 px-4">
                             <span class="h5 text-white">Special intro offer </span>
                             <h2 class="offer-price text-white">
-                                <span class="currency usa-currency">$</span>2<span class="decimal">.99</span><small>/month</small>
+                                <span class="currency usa-currency">₹</span>249<small>/month</small>
                             </h2>
-                            <p class="regular-price">Regular Price <strong>$8.99/mo</strong></p>
+                            <p class="regular-price">Regular Price <strong>989/mo</strong></p>
                             <div class="action-btns mt-4">
                                 <a class="btn primary-solid-btn animated-btn" href="#">Get Started Now</a>
                             </div>
@@ -631,7 +631,7 @@
                                 <p>Medium traffic personal sites</p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0">$19<span>/month</span></div>
+                                <div class="price text-center mb-0">₹249<span>/month</span></div>
                             </div>
                             <div class="card-body">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -655,7 +655,7 @@
                                 <p>High traffic corporate sites</p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0">$49<span>/month</span></div>
+                                <div class="price text-center mb-0">₹ 333<span>/month</span></div>
                             </div>
                             <div class="card-body">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -679,7 +679,7 @@
                                 <p>Enterprise content management</p>
                             </div>
                             <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0">$69<span>/month</span></div>
+                                <div class="price text-center mb-0">₹834<span>/month</span></div>
                             </div>
                             <div class="card-body">
                                 <ul class="list-unstyled mb-4 pricing-feature-list">

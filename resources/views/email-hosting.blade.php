@@ -645,15 +645,15 @@
                                             <p class="mb-0 comparision-price-title text-left"><strong>Price</strong></p>
                                         </td>
                                         <td class="py-4">
-                                            <h4 class="mb-0 comparision-price">₹ 209 <span>/month</span></h4>
+                                            <h4 class="mb-0 comparision-price">₹ 132 <span>/month</span></h4>
                                             <a href="#" class="btn primary-solid-btn mt-2">Get Started</a>
                                         </td>
                                         <td class="py-4">
-                                            <h4 class="mb-0 comparision-price">₹ 339<span>/month</span></h4>
+                                            <h4 class="mb-0 comparision-price">₹ 333<span>/month</span></h4>
                                             <a href="#" class="btn primary-solid-btn mt-2">Get Started</a>
                                         </td>
                                         <td class="py-4">
-                                            <h4 class="mb-0 comparision-price">₹499<span>/month</span></h4>
+                                            <h4 class="mb-0 comparision-price">₹699<span>/month</span></h4>
                                             <a href="#" class="btn primary-solid-btn mt-2">Get Started</a>
                                         </td>
                                     </tr>

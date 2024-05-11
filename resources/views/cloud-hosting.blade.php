@@ -576,7 +576,8 @@
                         <div class="offer-box text-white text-center py-5 px-4">
                             <span class="h5 text-white">Special intro offer </span>
                             <h2 class="offer-price text-white">
-                                <span class="currency usa-currency">₹</span>419<span class="decimal"></span><small>/month</small>
+                                <span class="currency usa-currency">₹</span>
+                                596<span class="decimal"></span><small>/month</small>
                             </h2>
                             <p class="regular-price">Regular Price <strong>₹ 919/mo</strong></p>
                             <div class="action-btns mt-4">
@@ -632,15 +633,18 @@
                                             <p class="mb-0 comparision-price-title text-left"><strong>Price</strong></p>
                                         </td>
                                         <td class="py-4">
-                                            <h4 class="mb-0 comparision-price">₹ 209 <span>/month</span></h4>
+                                            <h4 class="mb-0 comparision-price">₹
+                                                596 <span>/month</span></h4>
                                             <a href="#" class="btn primary-solid-btn mt-2">Get Started</a>
                                         </td>
                                         <td class="py-4">
-                                            <h4 class="mb-0 comparision-price">₹ 339<span>/month</span></h4>
+                                            <h4 class="mb-0 comparision-price">₹
+                                                1196<span>/month</span></h4>
                                             <a href="#" class="btn primary-solid-btn mt-2">Get Started</a>
                                         </td>
                                         <td class="py-4">
-                                            <h4 class="mb-0 comparision-price">₹ 499<span>/month</span></h4>
+                                            <h4 class="mb-0 comparision-price">₹
+                                                2796<span>/month</span></h4>
                                             <a href="#" class="btn primary-solid-btn mt-2">Get Started</a>
                                         </td>
                                     </tr>
